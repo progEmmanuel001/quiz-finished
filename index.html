@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="default.css">
+    <title>Programming</title>
+  </head>
+  <body>
+    <header class="header">
+      <span class="sitename">Web Development</span>
+    </header>
+    <main>
+      <div class="q-container">
+        <h1>Question 1</h1>
+        <h2>What does HTML stand for?</h2>
+
+        <input type="radio" name="q1" value="" id="q1a1">
+        <label for="q1a1">Hyper Text Makeup Language</label><br>
+
+        <input type="radio" name="q1" value="correct" id="q1a2">
+        <label for="q1a2">Hyper Text Markup Language</label><br>
+
+        <input type="radio" name="q1" value="" id="q1a3">
+        <label for="q1a3">High Transfer Markup Language</label><br>
+    
+        <div class="result" id="result1" style="color: aliceblue;"></div>
+        <button id="q1" onclick="checkAnswer('q1','#result1')">Check Answer</button>
+      </div>
+
+
+            <div class="q-container">
+        <h1>Question 2</h1>
+        <h2>Which tag is used to create a hyperlink?</h2>
+
+        <input type="radio" name="q2" value="correct" id="q1a1">
+        <label for="q1a1"> <-a> </label><br>
+
+        <input type="radio" name="q2" value="" id="q1a2">
+        <label for="q1a2"><-link></label><br>
+
+        <input type="radio" name="q2" value="" id="q1a3">
+        <label for="q1a3"><-href></label><br>
+    
+        <div class="result" id="result2" style="color: aliceblue;"></div>
+        <button id="q2" onclick="checkAnswer('q2','#result2')">Check Answer</button>
+      </div>
+    </main>
+  </body>
+  <script src="scripts.js"></script>
+</html>
